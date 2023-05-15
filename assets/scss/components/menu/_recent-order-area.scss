@@ -94,7 +94,7 @@
         font-weight: 600;
         font-size: 14px;
         height: 28px;
-        @include ellipse;
+        @include ellipsis;
     }
 
     .menu-price {
@@ -103,6 +103,6 @@
         font-size: 13px;
         font-weight: 700;
         color: $point-color;
-        @include ellipse;
+        @include ellipsis;
     }
 }

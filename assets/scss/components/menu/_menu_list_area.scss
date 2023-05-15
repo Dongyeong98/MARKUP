@@ -13,7 +13,7 @@
     &.is-closed {
         padding: 24px $m-padding;
 
-        &+.is-closed {
+        & + .is-closed {
             margin-top: 0px;
             border-top: 1px solid $booking-color-border144;
         }
@@ -25,7 +25,6 @@
         .menu-list {
             display: none;
         }
-
     }
 
     .menu-category {
@@ -37,7 +36,6 @@
     .title-area {
         display: flex;
         align-items: center;
-
     }
 
     .title {
@@ -47,13 +45,19 @@
         letter-spacing: -0.3px;
     }
 
+    .btn-toggle {
+        display: flex;
+        margin: -16px;
+        padding: 16px;
+    }
+
     .period {
         font-size: 14px;
         letter-spacing: -0.3px;
         color: $booking-color-text4;
 
         &::before {
-            content: '';
+            content: "";
             display: inline-block;
             margin: 0 10px;
             width: 4px;

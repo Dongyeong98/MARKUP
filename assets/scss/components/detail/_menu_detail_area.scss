@@ -1,6 +1,8 @@
 .menu-detail-area {
     background-color: #fff;
 
+    //메뉴 이미지 영역 
+
     .menu-img {
         position: relative;
         height: 300px;
@@ -174,7 +176,7 @@
         font-weight: 700;
         background-color: $green;
         color: #fff;
-        @include ellipse;
+        @include ellipsis;
 
         &:disabled {
             background-color: #c9c9c9;
